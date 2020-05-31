@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chi Journal</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!--   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />  -->
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <!--  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script> -->
+</head>
+
+<body>
+  <h1>Qi Gong Practice</h1>
+  <div class="container">
+    <section class="intro">
+      <p>
+        On this page is a form that collects information about my qi gong
+        practice. I'll start with recording the session and then displaying past sessions and then the total time spent.
+      </p>
+      <p>
+        I will enter information about what practice I am doing and then it will
+        record it. And, I can visualize the data on a graph and a table
+      </p>
+    </section>
+    <div class="time-container">
+      <span>
+        <h4>Total Time</h4>
+        <!-- show total time spent -->
+        <h3 id="balanceTime">0</h3>
+      </span>
+
+    </div>
+
+
+    <h4>Add New Session</h4>
+
+    <!-- collect the information about the session -->
+    <form id="form">
+      <div class="form-control">
+        <label for="descText">Description</label>
+        <input type="text" id="descText" placeholder="Enter a description" autofocus required />
+      </div>
+      <div class="form-control">
+        <label for="time">Time Duration</label>
+        <input type="number" id="time" class="form-control" placeholder="Enter the time duration" step="5" value="20"
+          required />
+
+      </div>
+      <button type="submit" class="btn">Add the session</button>
+
+    </form>
+
+
+    <!-- show past sessions -->
+    <h4>Past Sessions</h4>
+    <ul id="list" class="list">
+      <!-- This will be the descText and the durationTime 
+      <li>8 pieces in the Park <span>45 minutes</span>5/29 <button class="delete-btn">x</button></li>-->
+    </ul>
+    <!-- 
+    <section>
+      <div id="timeDiv">Time</div>
+    </section>
+
+    <section>
+      <div id="mapid"></div>
+    </section>
+
+    <section>
+      <div id="markers"></div>
+    </section> -->
+
+  </div>
+  <!-- <script src="timeZone.js"></script>
+  <script src="map.js"></script> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
