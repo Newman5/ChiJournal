@@ -1,11 +1,14 @@
 # ChiJournal
+
 A fork of Brad Traversy vanillawebprojects expense-tracker, which I set up to record my ChiGong sessions
 
 # First steps in a larger world
-I've always wanted to do this and today is the day.  And, by 'this', I mean, using GitHub to hold on to my projects and record my ideas and maybe get some collaboration.  My goal is to figure out a better workflow than using an FTP program.  
+
+I've always wanted to do this and today is the day. And, by 'this', I mean, using GitHub to hold on to my projects and record my ideas and maybe get some collaboration. My goal is to figure out a better workflow than using an FTP program.
 
 # Steps
-- I want to share this code with others.  
+
+- I want to share this code with others.
 - Host it so that others can use it to track chi gong sessions
 - find a collaborator (Can GitHub do collab mode coding?)
 - learn / use Markdown (currently)
@@ -21,5 +24,8 @@ I've always wanted to do this and today is the day.  And, by 'this', I mean, usi
 - add to Github - workflow for updates (currently)
 - autofucus of form (done)
 - increment by 5 (done)
-
-
+- graphing data with d3.js
+- a badge system with streaks and times of day, length of practice and total length etc.
+  -Ability to export and import data
+  -look good and function well on mobile device
+  -A roadmap, maybe in Trello
