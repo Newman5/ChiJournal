@@ -26,6 +26,6 @@ I've always wanted to do this and today is the day. And, by 'this', I mean, usin
 - increment by 5 (done)
 - graphing data with d3.js
 - a badge system with streaks and times of day, length of practice and total length etc.
-  -Ability to export and import data
-  -look good and function well on mobile device
-  -A roadmap, maybe in Trello
+- Ability to export and import data
+- look good and function well on mobile device
+- A roadmap, maybe in Trello
