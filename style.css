@@ -22,7 +22,9 @@ body {
 
 .container {
 	margin: 30px auto;
-	width: 450px;
+	width: auto;
+	max-width: 450px;
+	padding: 2.5%;
 }
 
 .time-container {
@@ -128,6 +130,6 @@ input[type="number"] {
 }
 
 #mapid {
-	width: 40vw;
-	height: 40vh;
+	width: 360px;
+	height: 360px;
 }

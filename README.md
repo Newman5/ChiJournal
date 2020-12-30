@@ -14,11 +14,17 @@ I've always wanted to do this and today is the day.  And, by 'this', I mean, usi
 # toDo for the app
 
 - add map and markers
-- sorting of past events so latest is on top (done)
+- change background color based on day
 - collecting start and end time
 - back up of data from local storage
 - chi journal stuff of intention / areas of distress
 - add to Github - workflow for updates (currently)
+- add to Github Pages, host on git hub
+
+
+
+# toDone 
+- sorting of past events so latest is on top (done)
 - autofucus of form (done)
 - increment by 5 (done)
 

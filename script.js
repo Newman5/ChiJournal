@@ -92,13 +92,3 @@ function init() {
 init();
 
 form.addEventListener("submit", addTransaction);
-
-//to change
-/* add map and markers
-sorting of past events so latest is on top
-collecting start and end time
-back up off data
-chi journal stuff of intention / areas of distress
-add to Github - workflow for updates
-autofucus of form
-increment by 5 */
